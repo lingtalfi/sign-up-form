@@ -57,6 +57,7 @@ Next
 - we need to include google, facebook and github one click registration techniques.
 - when the form is posted, maybe add the email handling part
 - add captcha?
+- when the form is posted and there is an error, use javascript to remove the errors upon blur?
 
 
 

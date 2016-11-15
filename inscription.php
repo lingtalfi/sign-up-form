@@ -56,7 +56,7 @@ if (
     // VERIFYING USER DATA
     //--------------------------------------------
     $formHasError = false;
-    $res = QuickPdo::fetch('select id from users where email=:email', [
+    $res = QuickPdo::fetch('select id from ' . $table . ' where email=:email', [
         'email' => $email,
     ]);
 
