@@ -1,0 +1,90 @@
+.centered {
+    text-align: center;
+}
+.block {
+    margin: 50px 0;
+}
+
+
+
+
+/*------------------------------------
+- INSCRIPTION FORM
+------------------------------------*/
+.form {
+    /*background: #eee;*/
+    margin: 0 auto;
+    text-align: left;
+}
+
+.form .submit {
+    margin-top: 50px;
+}
+
+.form label {
+    margin: 0;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.form label span {
+    width: 40%;
+    overflow: hidden;
+    text-align: right;
+}
+
+.form label input {
+    width: 58%;
+    height: 30px;
+    margin-left: 2%;
+    min-width: 200px;
+    font-size: 1.1em;
+    padding-left:5px;
+}
+
+.form .submit {
+    text-align: center;
+}
+
+.form .input-submit {
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    border: none;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+
+.form .error {
+    color: red;
+    margin-left: 42%;
+    background: yellow;
+    text-align: left;
+    display: none;
+}
+
+.form .error.activated {
+    display: block;
+}
+
+.form-success{
+    color: #0c0;
+}
+.form-success a{
+    color: orange;
+    text-decoration: underline;
+}
+
+
+
+.inscription-form .input-submit {
+    background: orange;
+    color: white;
+}
+
+.inscription-form {
+    width: 40%;
+}
