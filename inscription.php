@@ -148,7 +148,7 @@ if (
         }
 
         inputSubmit.addEventListener('click', function (e) {
-            if (true || true === formValidate()) {
+            if (true === formValidate()) {
                 document.getElementById("form-inscription").submit();
             }
             else {
