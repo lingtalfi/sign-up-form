@@ -32,6 +32,9 @@ It's easy to replace QuickPdo with your own system though.
 How?
 ------------
 
+First, you need a table named users, containing at least the three columns id, email, password (or adapt the script to your needs otherwise).
+
+
 Open the inscription.php script: it contains
 
 - the php script (top of the file)
@@ -61,6 +64,13 @@ Next
 
 
 
+
+Related
+===================
+You might be interested in those other scripts as well:
+
+- https://github.com/lingtalfi/sign-in-form
+- https://github.com/lingtalfi/session-user
 
 
 
